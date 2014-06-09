@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.view.my.MyTextView
+        android:id="@+id/my_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/action_settings" />
+
+    <com.view.my.MyRTextView
+        android:id="@+id/my_r_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/hello_world" />
+
+    <!-- <com.view.my.MyView -->
+    <!-- android:id="@+id/my_m_tv" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- android:text="@string/hello_world" > -->
+    <!-- </com.view.my.MyView> -->
+
+
+    <!-- <com.view.my.LabelView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_gravity="center_vertical" /> -->
+
+</LinearLayout>
